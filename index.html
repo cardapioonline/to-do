@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>To-Do List Gamificado (Anderson Maia)</h1>
+        <h3>Level: <span id="level">1</span></h3>
+        <h3>XP: <span id="xp">0</span>/100</h3>
+
+        <div class="barra">
+            <div id="barra-progresso-fill"></div>
+        </div>
+
+        <form id="form-tarefa">
+
+            <input
+                type="text"
+                id="input-tarefa"
+                placeholder="Digite uma tarefa"
+            >
+                
+            <button type="submit">Adicionar</button>    
+
+        </form>
+
+        <ul id="lista-tarefas"></ul>
+
+    </div>
+
+   <script src="js/script.js"></script>
+    
+</body>
+</html>
